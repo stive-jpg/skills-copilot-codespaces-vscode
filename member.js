@@ -1,3 +1,7 @@
 function skillMember() {
-  console.log("skillMember");
+    this.name = 'skillMember';
+    this.skill = 'skill';
+    this.getSkill = function() {
+        return this.skill;
+    }
 }
